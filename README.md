@@ -1,3 +1,4 @@
+![Logo](https://github.com/archways404/IAEF/blob/main/extras/ifallelsefails.png)
 
 # IAEF - If All Else Fails
 
