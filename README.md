@@ -6,9 +6,9 @@ IAEF, "IF All Else Fails" is a robust messaging application designed to ensure c
 
 Given how undeniably reliant we are on traditional communication channels, the absence of these channels can lead to significant challenges; especially in emergency situations or any scenario where standard communication infrastructure is compromised. IAEF addresses these challenges by providing a resilient, secure, and privacy-focused messaging solution that operates independently of traditional infrastructure, making it ideal for use in disaster-stricken areas, or any situation where standard communication channels are unavailable.
 
-The application itself will be designed to work across various devices and platforms. Currently, the application is being developed for PC and or macOS (for testing & proof of concept) but we will branch out to Android devices as soon as a working prototype created, with plans to expand to other platforms in the future. The application will use Bluetooth as the primary proximity technology, with the potential to incorporate other proximity technologies in the future.
+The application is built around the idea of creating small encrypted message files which will be sent via "BLE" (Bluetooth Low Energy) to any nearby device, which in turn will continue to pass on the encrypted text-file to any other nearby devices.
 
-Language is yet to be decided, but we are considering using either Rust, Go or Python. The choice of language will be made based on the language's ability to work across various platforms, as well as its ability to provide the necessary security and encryption features.
+While it might not be the most secure way of sending a message, it should at the very least allow for a decently safe messaging service that will work regardless of infrastructure.
 
 ## Features
 - **Encrypted Messaging**: Ensures that messages are securely encrypted, readable only by the intended recipient.
